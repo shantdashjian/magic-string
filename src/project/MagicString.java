@@ -33,7 +33,7 @@ public class MagicString {
 			asciiCount[string.charAt(i)]++;
 		}
 		for (int i = 0; i < asciiCount.length; i++) {
-			if (asciiCount[i] > 0) {
+			if (asciiCount[i] > 1) {
 				return false;
 			}
 		}
